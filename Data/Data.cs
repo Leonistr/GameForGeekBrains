@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 namespace RollABoll
 {
@@ -6,5 +7,6 @@ namespace RollABoll
     class Data : ScriptableObject
     {
         public PlayerData playerData;
+        public List<GoodBonusData> GoodBonusDatas;
     }
 }
